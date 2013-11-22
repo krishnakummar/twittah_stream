@@ -1,0 +1,17 @@
+<h2>Stream tweets within an area</h2>
+
+<form action="/tweets">
+  Search the latitude and longitude <input type="text" size="50" value="40.7419186,-73.9927421" name="latlng" />
+  <br />
+
+  Set search radius to 
+  <select name="radius">
+    <option value="1">2</option>
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="25">25</option>
+  </select> miles
+  <br />
+
+  <input type="submit" value="Submit" />
+</form>
