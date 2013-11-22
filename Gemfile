@@ -8,6 +8,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'twitter'
+gem 'puma'
+gem 'geocoder'
 
 group :doc do
   gem 'sdoc', require: false
